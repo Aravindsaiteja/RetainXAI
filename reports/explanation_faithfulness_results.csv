@@ -1,0 +1,5 @@
+Top_k_Masked,IG_Mean_Prob_Drop,SHAP_Mean_Prob_Drop,Random_Baseline_Drop,Faithfulness_Gain_IG_vs_Random
+1,0.0391,0.0109,0.0042,0.0349
+3,0.0646,0.0285,0.0058,0.0588
+5,0.0987,0.0594,0.0171,0.0816
+10,0.1415,0.0617,0.042,0.0994

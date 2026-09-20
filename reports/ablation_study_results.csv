@@ -1,0 +1,5 @@
+Experiment,Num_Features,Description,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+Exp A: Full Features,47,All 47 Transformed Features,0.7048,0.466,0.7821,0.584,0.8145
+Exp B: Remove Top 5,42,"Remove tenure, Contract, TotalCharges, MonthlyCharges",0.7114,0.4717,0.7429,0.577,0.786
+Exp C: Top 10 Only,10,Use ONLY Top 10 Consensus Features,0.6897,0.4544,0.8536,0.5931,0.8333
+Exp D: Remove Bottom 20,27,Prune 20 Low-Impact Features,0.6216,0.4048,0.9107,0.5604,0.8086

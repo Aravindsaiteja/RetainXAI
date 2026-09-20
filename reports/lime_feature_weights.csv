@@ -1,0 +1,11 @@
+Feature_Condition,LIME_Weight,Impact_Direction,Abs_Weight
+tenure > 0.95,-0.16646196887042325,Decreases Churn,0.16646196887042325
+Contract_Month-to-month <= 0.00,-0.12930153694824525,Decreases Churn,0.12930153694824525
+Contract_Two year > 0.00,-0.10533751867195017,Decreases Churn,0.10533751867195017
+InternetService_Fiber optic <= 0.00,-0.07575112248071414,Decreases Churn,0.07575112248071414
+0.00 < InternetService_DSL <= 1.00,-0.0577829175788909,Decreases Churn,0.0577829175788909
+0.00 < OnlineSecurity_No <= 1.00,0.051155609327073276,Increases Churn,0.051155609327073276
+TechSupport_Yes <= 0.00,0.04881524305319241,Increases Churn,0.04881524305319241
+Contract_One year <= 0.00,0.04753928968188026,Increases Churn,0.04753928968188026
+0.00 < Dependents_No <= 1.00,0.047197435520992655,Increases Churn,0.047197435520992655
+0.00 < TechSupport_No <= 1.00,0.045500683911151266,Increases Churn,0.045500683911151266

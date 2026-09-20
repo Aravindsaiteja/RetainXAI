@@ -1,0 +1,23 @@
+{
+    "total_features": 47,
+    "top_3_features_concentration_pct": 36.37,
+    "top_5_features_concentration_pct": 49.32,
+    "top_10_features_concentration_pct": 69.9,
+    "bottom_half_concentration_pct": 10.6,
+    "feature_attribution_gini_coefficient": 0.6275,
+    "top_driver": "tenure",
+    "top_5_drivers": [
+        "tenure",
+        "Contract_Month-to-month",
+        "TotalCharges",
+        "Contract_Two year",
+        "MonthlyCharges"
+    ],
+    "low_impact_features": [
+        "StreamingMovies_Yes",
+        "Partner_Yes",
+        "StreamingTV_No",
+        "StreamingMovies_No internet service",
+        "MultipleLines_No phone service"
+    ]
+}

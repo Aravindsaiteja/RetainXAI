@@ -1,0 +1,37 @@
+[
+    {
+        "Scenario_ID": "S0: Original Instance",
+        "Intervention_Description": "No changes (Baseline High Risk)",
+        "Modified_P_Churn": 0.7712,
+        "Risk_Reduction_Delta": 0.0,
+        "Prediction_Class": "Churn"
+    },
+    {
+        "Scenario_ID": "S1: Increase Tenure (+12 Mos)",
+        "Intervention_Description": "Increase customer tenure by 12 months",
+        "Modified_P_Churn": 0.7112,
+        "Risk_Reduction_Delta": 0.06,
+        "Prediction_Class": "Churn"
+    },
+    {
+        "Scenario_ID": "S2: Switch to 2-Year Contract",
+        "Intervention_Description": "Convert subscriber contract to 2-Year fixed plan",
+        "Modified_P_Churn": 0.5897,
+        "Risk_Reduction_Delta": 0.1815,
+        "Prediction_Class": "Churn"
+    },
+    {
+        "Scenario_ID": "S3: Add Online Security",
+        "Intervention_Description": "Enable complementary online security protection",
+        "Modified_P_Churn": 0.7123,
+        "Risk_Reduction_Delta": 0.059,
+        "Prediction_Class": "Churn"
+    },
+    {
+        "Scenario_ID": "S4: Combined Intervention",
+        "Intervention_Description": "Tenure + 2-Yr Contract + Online Security",
+        "Modified_P_Churn": 0.4305,
+        "Risk_Reduction_Delta": 0.3407,
+        "Prediction_Class": "Retained"
+    }
+]

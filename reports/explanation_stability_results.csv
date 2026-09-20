@@ -1,0 +1,4 @@
+Method,Mean_Cosine_Similarity,Mean_Spearman_Rank_Corr,Std_Cosine_Similarity,Stability_Rating
+Integrated Gradients (Captum),0.8484,0.7948,0.1856,EXCELLENT (Axiomatic Deterministic)
+SHAP (KernelExplainer),0.8039,0.7243,0.2394,HIGH (Game-Theoretic Consistent)
+LIME (Local Linear Surrogate),0.7074,0.6084,0.3232,MODERATE (Perturbation Sampling Variance)

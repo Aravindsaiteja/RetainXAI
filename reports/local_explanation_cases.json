@@ -1,0 +1,52 @@
+[
+    {
+        "Case_Title": "Case 1: True Positive (Correct Churn)",
+        "Test_Index": 10,
+        "Actual_Class": 1,
+        "Predicted_Class": 1,
+        "Churn_Probability": 0.7712,
+        "Top_SHAP_Drivers": "tenure: +0.1099, Contract_Month-to-month: +0.0716, InternetService_Fiber optic: +0.0522",
+        "Top_LIME_Drivers": "tenure <= -0.95: +0.1673, 0.00 < Contract_Month-to-month <= 1.00: +0.1275, Contract_Two year <= 0.00: +0.1011",
+        "Top_IG_Drivers": "tenure: +0.7150, Contract_Month-to-month: +0.6338, InternetService_Fiber optic: +0.4450"
+    },
+    {
+        "Case_Title": "Case 2: True Negative (Correct Retained)",
+        "Test_Index": 0,
+        "Actual_Class": 0,
+        "Predicted_Class": 0,
+        "Churn_Probability": 0.1398,
+        "Top_SHAP_Drivers": "tenure: -0.1409, Contract_Two year: -0.0680, Contract_Month-to-month: -0.0466",
+        "Top_LIME_Drivers": "tenure > 0.95: -0.1662, Contract_Month-to-month <= 0.00: -0.1200, Contract_Two year > 0.00: -0.1036",
+        "Top_IG_Drivers": "tenure: -0.6260, Contract_Two year: -0.5656, OnlineSecurity_No: +0.2467"
+    },
+    {
+        "Case_Title": "Case 3: High Confidence Prediction",
+        "Test_Index": 43,
+        "Actual_Class": 1,
+        "Predicted_Class": 1,
+        "Churn_Probability": 0.9336,
+        "Top_SHAP_Drivers": "tenure: +0.1263, MonthlyCharges: +0.1015, TotalCharges: +0.0944",
+        "Top_LIME_Drivers": "tenure <= -0.95: +0.1662, 0.00 < Contract_Month-to-month <= 1.00: +0.1318, Contract_Two year <= 0.00: +0.0979",
+        "Top_IG_Drivers": "tenure: +0.7322, MonthlyCharges: +0.5204, Contract_Month-to-month: +0.5101"
+    },
+    {
+        "Case_Title": "Case 4: Low Confidence (Uncertain Boundary)",
+        "Test_Index": 5,
+        "Actual_Class": 0,
+        "Predicted_Class": 0,
+        "Churn_Probability": 0.4803,
+        "Top_SHAP_Drivers": "tenure: -0.0839, Contract_Month-to-month: +0.0652, InternetService_Fiber optic: +0.0514",
+        "Top_LIME_Drivers": "0.00 < Contract_Month-to-month <= 1.00: +0.1215, TotalCharges > 0.68: -0.1132, Contract_Two year <= 0.00: +0.1051",
+        "Top_IG_Drivers": "Contract_Month-to-month: +0.5839, tenure: -0.4301, InternetService_Fiber optic: +0.3144"
+    },
+    {
+        "Case_Title": "Case 5: Misclassified Instance (Error)",
+        "Test_Index": 1,
+        "Actual_Class": 0,
+        "Predicted_Class": 1,
+        "Churn_Probability": 0.5655,
+        "Top_SHAP_Drivers": "tenure: -0.0736, Contract_Month-to-month: +0.0567, MonthlyCharges: +0.0550",
+        "Top_LIME_Drivers": "0.00 < Contract_Month-to-month <= 1.00: +0.1240, TotalCharges > 0.68: -0.1197, MonthlyCharges > 0.84: +0.0998",
+        "Top_IG_Drivers": "Contract_Month-to-month: +0.5719, tenure: -0.3326, OnlineSecurity_No: +0.3022"
+    }
+]

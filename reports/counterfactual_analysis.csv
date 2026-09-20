@@ -1,0 +1,6 @@
+Scenario_ID,Intervention_Description,Modified_P_Churn,Risk_Reduction_Delta,Prediction_Class
+S0: Original Instance,No changes (Baseline High Risk),0.7712,0.0,Churn
+S1: Increase Tenure (+12 Mos),Increase customer tenure by 12 months,0.7112,0.06,Churn
+S2: Switch to 2-Year Contract,Convert subscriber contract to 2-Year fixed plan,0.5897,0.1815,Churn
+S3: Add Online Security,Enable complementary online security protection,0.7123,0.059,Churn
+S4: Combined Intervention,Tenure + 2-Yr Contract + Online Security,0.4305,0.3407,Retained

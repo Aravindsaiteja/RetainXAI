@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  xai-churn-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xai_churn_streamlit_app
+    ports:
+      - "8501:8501"
+    environment:
+      - PORT=8501
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
